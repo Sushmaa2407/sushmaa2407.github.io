@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    width:100%;
+  height:100vh;
+  margin:0;
+  font-size:16px;
+  
+  
+}
+body {
+    background-image: url(https://i.pinimg.com/236x/27/46/cd/2746cda302b837f8089ed1285970893d.jpg); /* Path to the image */
+    background-size: cover; /* Scale the image to cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-attachment: fixed; /* Keep the image fixed during scrolling */
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    
+    color: rgb(41, 38, 38);
+    padding: 40px;
+    text-align: center;
+    margin:1em auto;
+    height:30vh;
+    width:100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin:1em auto;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+section{ 
+    height: 160px;
+}
+.downloadBtn {
+    display: inline-block;
+    background-color: #1ca51e;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    margin-left: 5%;
+}
+
+.downloadBtn:hover {
+    background-color: #045909;
+}
+.aboutus {
+  
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 100%;
+  margin-top:1%
+  
+  
+}
+.contactus{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom:50px;
+    padding: 20px;
+    
+    max-width: 500px;
+}
+.disc{
+    text-indent: 5%;
+    text-align: justify ;
+    height: 100px;
+}
+
+.res{
+    height: 350px;
+    margin-left: 5%;
+}
+.pic{
+    height: 700px;
+    margin-left: 5%;
+}
+.add{
+    font-size:small;
+}
+.ab{
+    height: 150px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.who{
+    height: 100px;
+}
