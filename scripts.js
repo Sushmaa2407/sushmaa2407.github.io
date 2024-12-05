@@ -1,11 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Website is loaded!");
 });
-const downloadBtn = document.getElementById(".btndownloadBtn");
-const downloadLink = document.getElementById("downloadLink");
-
-// Add a click event listener to the button
-downloadBtn.addEventListener("click", function() {
-    // Trigger a click event on the hidden link to start the download
-    downloadLink.click();
+document.querySelectorAll('.downloadBtn').forEach(button => {
+    button.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent default link behavior
+        const SCR part1 report (1).pdf = button.getAttribute('data-file'); // Get file path from data attribute
+        const link =SCR part1 report (1).pdf; // Set file path
+        link.download = SCR part1 report (1).pdf.split('/').pop(); // Use the file name from the path
+        link.click(); // Programmatically click the link
+    });
 });
